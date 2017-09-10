@@ -6,6 +6,11 @@
             "email": "sergey_rus@bk.ru"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "LampOfGod\\": "src/"
+        }
+    },
     "require": {
         "kahlan/kahlan": "^3.1"
     }
