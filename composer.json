@@ -1,0 +1,12 @@
+{
+    "name": "lamp-of-god/kahlan-isolator-plugin",
+    "authors": [
+        {
+            "name": "SeRRg",
+            "email": "sergey_rus@bk.ru"
+        }
+    ],
+    "require": {
+        "kahlan/kahlan": "^3.1"
+    }
+}
