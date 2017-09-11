@@ -6,9 +6,17 @@
             "email": "sergey_rus@bk.ru"
         }
     ],
+    "description": "Plugin for Kahlan unit-testing framework which allows to extract functions from PHP files.",
+    "keywords": ["Testing", "Unit Test", "TDD"],
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "LampOfGod\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LampOfGod\\Spec\\": "spec/"
         }
     },
     "require": {
