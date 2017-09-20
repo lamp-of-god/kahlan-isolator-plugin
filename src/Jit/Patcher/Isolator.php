@@ -1,5 +1,5 @@
 <?php
-namespace LampOfGod\Jit\Patcher;
+namespace LampOfGod\Kahlan\Jit\Patcher;
 
 /**
  * Patcher for functions isolation from old legacy code.

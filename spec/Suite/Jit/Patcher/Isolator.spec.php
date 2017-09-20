@@ -1,8 +1,8 @@
 <?php
-namespace Kahlan\Spec\Suite\Jit\Patcher;
+namespace LampOfGod\Kahlan\Spec\Suite\Jit\Patcher;
 
 use Kahlan\Jit\Parser;
-use LampOfGod\Jit\Patcher\Isolator;
+use LampOfGod\Kahlan\Jit\Patcher\Isolator;
 
 describe("Isolator", function () {
 

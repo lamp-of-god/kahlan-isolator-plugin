@@ -1,8 +1,8 @@
 <?php
-namespace LampOfGod\Plugin;
+namespace LampOfGod\Kahlan\Plugin;
 
 use Kahlan\Jit\Interceptor;
-use LampOfGod\Jit\Patcher\Isolator as Patcher;
+use LampOfGod\Kahlan\Jit\Patcher\Isolator as Patcher;
 
 /**
  * Plugin that allows to isolate functions from given file.

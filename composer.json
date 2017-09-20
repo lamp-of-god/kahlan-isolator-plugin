@@ -7,16 +7,16 @@
         }
     ],
     "description": "Plugin for Kahlan unit-testing framework which allows to extract functions from PHP files.",
-    "keywords": ["Testing", "Unit Test", "TDD"],
+    "keywords": ["Testing", "Unit Test", "TDD", "Kahlan"],
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "LampOfGod\\": "src/"
+            "LampOfGod\\Kahlan\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "LampOfGod\\Spec\\": "spec/"
+            "LampOfGod\\Kahlan\\Spec\\": "spec/"
         }
     },
     "require": {
