@@ -1,7 +1,7 @@
 <?php
 namespace LampOfGod\Kahlan\Plugin;
 
-use Kahlan\Jit\Interceptor;
+use Kahlan\Jit\ClassLoader;
 use LampOfGod\Kahlan\Jit\Patcher\Isolator as Patcher;
 
 /**
@@ -16,7 +16,7 @@ class Isolator
      */
     public static function isolate($file)
     {
-        $interceptor = Interceptor::instance();
+        $interceptor = ClassLoader::instance();
         $interceptor->patchers()->add('isolator', new Patcher());
         $interceptor->loadFile($file);
         $interceptor->patchers()->remove('isolator');
